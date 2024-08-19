@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Ingredient"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/add_img_prev"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="Ingredient Preview"
+            android:src="@drawable/ic_empty_ingredient"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtxt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ing. Name"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtxt_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ing. Category"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_margin="10dp"
+            android:id="@+id/chk_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Stock?"
+            android:checked="false"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/edtxt_stock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="0"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberSigned"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Bought on: "
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/add_txt_preview_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="Click to select date"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+</LinearLayout>

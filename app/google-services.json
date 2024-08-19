@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "481962177984",
+    "firebase_url": "https://smart-fridge-db-default-rtdb.firebaseio.com",
+    "project_id": "smart-fridge-db",
+    "storage_bucket": "smart-fridge-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481962177984:android:4f09e38fb93e064aae4425",
+        "android_client_info": {
+          "package_name": "com.example.smartfridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbvATChZK6GGJ-I-AVfYwZFVw6uWStUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
